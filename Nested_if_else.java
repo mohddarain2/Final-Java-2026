@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Nested_if_else {
     public static void main(String[] args) {
-        int number = 0; // You can change this value to test different conditions
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt(); // Read input from the user
 
         // Nested If-Else Statement
         if (number >= 0) {
