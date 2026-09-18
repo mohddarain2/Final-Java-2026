@@ -8,7 +8,7 @@ public class Unary_Operator {
         // System.out.println("Decrement (prefix): " + (--a)); // Decrement
 
         int b = 5;
-       
+
         // System.out.println("Increment (postfix): " + (b++));
         // System.out.println("Value of b after postfix increment: " + b);
         System.out.println("Decrement (postfix): " + (b--)); // Postfix decrement
