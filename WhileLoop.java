@@ -10,17 +10,28 @@ class Whileloop {
 
         // }
 
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the number: ");
+        // int num = sc.nextInt();
+        // int item = 1;
+        // while (item < num) {
+        //     if (item % 2 == 1) {
+        //         System.out.println(item);
+        //     }
+        //     item++;
+        // }
+        // sc.close();
+        // System.out.println("The loop is completed " + item);
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
-        int item = 1;
-        while (item < num) {
-            if (item % 2 == 1) {
-                System.out.println(item);
-            }
-            item++;
+        int item = 0;
+        while (item<=num) { // 10 10>0 | 9 9>0 | 8 8>0 | 7 7>0 | 6 6>0 | 5 5>0 | 4 4>0 | 3 3>0 | 2 2>0 | 1 1>0 | 0 0>0 false
+            System.out.println(num); // 10 9 8 7 6 5 4 3 2 1
+            num--;
         }
+        System.out.println("The loop is completed " + num);
         sc.close();
-        System.out.println("The loop is completed " + item);
     }
 }
