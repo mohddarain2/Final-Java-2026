@@ -25,7 +25,9 @@ public class Do_while_loop {
         // int item = 0;
         do {
             if (num % 2 == 0) {
-                System.out.println(num); // 10 8 6 4 2
+                System.out.println(num + " is even"); // 10 8 6 4 2
+            }else{
+                System.out.println(num + " is odd"); // 9 7 5 3 1
             }
             num--; // 9 8 7 6 5 4 3 2 1 0
         } while (num>=0);
