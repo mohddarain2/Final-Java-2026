@@ -1,7 +1,7 @@
 public class Operators {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 5;
+        // int a = 10;
+        // int b = 5;
 
         // Arithmetic Operators
         // System.out.println("Addition: " + (a + b));
