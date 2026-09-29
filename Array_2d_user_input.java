@@ -8,14 +8,12 @@ public class Array_2d_user_input {
         System.out.print("Enter the number of columns: ");
         int cols = sc.nextInt();
 
-        // int arr[][] = new int[rows][cols];
-        String arr[][]= new String[rows][cols];
+        int arr[][] = new int[rows][cols];
+        
         System.out.println("Enter the elements of 2D array: ");
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
-                // arr[i][j] = sc.nextInt();
-                // arr[i][j] = sc.next();
-                arr[i][j] = sc.nextLine();
+                arr[i][j] = sc.nextInt();
             }
         }
 
