@@ -8,7 +8,7 @@
 //         }
 //     }
 // }
-import java.util.Scanner;
+// import java.util.Scanner;
 class Even_and_Odd {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
