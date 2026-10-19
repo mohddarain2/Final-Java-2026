@@ -13,15 +13,15 @@ public class LeapYear {
     // }
 
     if (year % 4 == 0) { // 2000 % 4 ==0
-                if (year % 100 == 0) { // 2000 % 100 ==0
-                                      if (year % 400 == 0) { // 2000 % 400 ==0
-                                        System.out.println("leap year");
-                                      } else {
-                                        System.out.println("not leap year");
-                                      }
-                } else {
-                  System.out.println(" leap year");
-                }
+      if (year % 100 == 0) { // 2000 % 100 ==0
+        if (year % 400 == 0) { // 2000 % 400 ==0
+          System.out.println("leap year");
+        } else {
+          System.out.println("not leap year");
+        }
+      } else {
+        System.out.println(" leap year");
+      }
     } else {
       System.out.println(" not leap year");
     }
